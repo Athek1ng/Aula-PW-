@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column; /* empilha verticalmente */
+    align-items: center;
+    margin-top: 40px;
+    background-color: lightyellow;
+  }
+  
+  .head {
+    background-color: darkgreen;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+    display: inline-block;
+  }
+  
+  .head h1, .head h2 {
+    color: yellow;
+  }
+  
+  .conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 20px;
+    width: 90%;
+    margin: 40px auto;
+  }
+  
+  .produto {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  /* corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    background-color: lightyellow;
+  }
+  
+  /* cabeçalho */
+  .head {
+    background-color: darkgreen;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+    display: inline-block;
+  }
+  
+  .head h1, .head h2 {
+    color: yellow;
+  }
+  
+  /* NOVO: quadrado em volta de todos os produtos */
+  .container-produtos {
+    background-color: darkgreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 95%;
+    margin: 40px auto;
+  }
+  
+  /* grid dos produtos */
+  .conteudo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  /* cards individuais */
+  .produto {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .imagem {
+    height: 120px;
+    background-image: url('milho.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .produto button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .produto button:hover {
+    background-color: darkgreen;
+  }
