@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button {
+    background-color: #667eea;
+    color: white;
+}
+
+button:hover {
+    background-color: #5568d3;
+}
+
+.btn-validar {
+    background-color: #48bb78;
+}
+
+.btn-validar:hover {
+    background-color: #38a169;
+}
+
+.btn-remover {
+    background-color: #f56565;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn-remover:hover {
+    background-color: #e53e3e;
+}
+
+#mensagem {
+    margin: 15px 0;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    min-height: 20px;
+}
+
+.mensagem.erro {
+    background-color: #fed7d7;
+    color: #c53030;
+    border-left: 4px solid #f56565;
+}
+
+.mensagem.sucesso {
+    background-color: #c6f6d5;
+    color: #22543d;
+    border-left: 4px solid #48bb78;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th {
+    background-color: #667eea;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background-color: #f7fafc;
+}
+
+tbody tr:last-child td {
+    border-bottom: 2px solid #667eea;
+}
