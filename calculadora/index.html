@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Calculadora Online</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <main class="calculator">
+      <header class="calculator__header">
+         <h1>Calculadora Online</h1>
+         <p>Faça contas rápidas com a calculadora web.</p>
+      </header>
+
+      <section class="calculator__screen">
+         <input id="display" class="display" type="text" value="0" readonly>
+      </section>
+
+      <section class="calculator__keys">
+         <button class="key key--wide" data-action="clear">C</button>
+         <button class="key" data-action="delete">DEL</button>
+         <button class="key" data-action="operator">/</button>
+
+         <button class="key" data-number="7">7</button>
+         <button class="key" data-number="8">8</button>
+         <button class="key" data-number="9">9</button>
+         <button class="key" data-action="operator">*</button>
+
+         <button class="key" data-number="4">4</button>
+         <button class="key" data-number="5">5</button>
+         <button class="key" data-number="6">6</button>
+         <button class="key" data-action="operator">-</button>
+
+         <button class="key" data-number="1">1</button>
+         <button class="key" data-number="2">2</button>
+         <button class="key" data-number="3">3</button>
+         <button class="key" data-action="operator">+</button>
+
+         <button class="key" data-number="0">0</button>
+         <button class="key" data-number=".">.</button>
+         <button class="key key--equal" data-action="calculate">=</button>
+      </section>
+   </main>
+
+   <script src="script.js"></script>
+</body>
+</html>
